@@ -7,7 +7,8 @@
       "PowerShell(cmd /c \"dir /s /b \"\"C:\\\\Program Files \\(x86\\)\\\\nasm.exe\"\" 2>nul\")",
       "PowerShell(cmd /c \"dir /s /b \"\"C:\\\\Program Files\\\\qemu-system-i386.exe\"\" 2>nul\")",
       "PowerShell(cmd /c \"dir /s /b \"\"C:\\\\Program Files \\(x86\\)\\\\qemu-system-i386.exe\"\" 2>nul\")",
-      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\adiya\\\\OneDrive\\\\Documents\\\\osdevism\\\\kernel\" -Force)"
+      "PowerShell(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\adiya\\\\OneDrive\\\\Documents\\\\osdevism\\\\kernel\" -Force)",
+      "PowerShell(Get-Command cargo -ErrorAction SilentlyContinue; Get-Item \"$env:USERPROFILE\\\\.cargo\\\\bin\\\\cargo.exe\" -ErrorAction SilentlyContinue)"
     ]
   }
 }
